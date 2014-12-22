@@ -1,5 +1,5 @@
 ## Project Assignment #2 for R Programming Coursera course
-## Caching and inverse matrix
+## Caching an inverse matrix
 
 ## Caching the matrix
 
@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
              getmatrix = getmatrix)
 }
 
-## Returing the inverse matrix
+## Returning the inverse matrix
 
 cacheSolve <- function(x = matrix(), ...) {
         ## Return a matrix that is the inverse of 'x'
